@@ -964,7 +964,8 @@ header .basket:hover .basket-total {
 }
 
 #slider-catalog .swiper-slide .product-item {
-    margin: 0
+    margin: 0;
+    width: 100%;
 }
 
 #slider-catalog .swiper-slide .product-item img {
@@ -1317,6 +1318,8 @@ footer .delivery a {
     -webkit-align-items: center;
     align-items: center;
     -webkit-justify-content: center;
+
+
     justify-content: center;
 }
 
@@ -2107,7 +2110,7 @@ footer .delivery a {
     padding-bottom: 40px;
 }
 
-.catalog_ins {
+.catalog_ins.product-item {
     width: 100%;
     margin: 30px 0;
     -webkit-align-items: flex-start;
@@ -2536,6 +2539,7 @@ footer .delivery a {
     font-size: 19px;
     color: #dcdcdc;
     line-height: 19px;
+
     text-decoration: none;
     border: 0;
     height: 58px;
